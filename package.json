@@ -1,0 +1,36 @@
+{
+  "name": "balm-of-gilead",
+  "version": "1.0.0",
+  "description": "{{ description }}",
+  "author": "{{ author }}",
+  "scripts": {
+    "dev": "gulp --silent",
+    "prod": "gulp --silent --production"
+  },
+  "dependencies": {
+    "@angular/animations": "~8.0.0",
+    "@angular/common": "~8.0.0",
+    "@angular/compiler": "~8.0.0",
+    "@angular/core": "~8.0.0",
+    "@angular/forms": "~8.0.0",
+    "@angular/platform-browser": "~8.0.0",
+    "@angular/platform-browser-dynamic": "~8.0.0",
+    "@angular/router": "~8.0.0",
+    "balm-ui": "^3.2.0",
+    "core-js": "^3.2.1",
+    "rxjs": "~6.5.2",
+    "zone.js": "~0.10.2"
+  },
+  "devDependencies": {
+    "@types/node": "~12.0.0",
+    "angular-template-loader": "0.0.2",
+    "angular2-template-loader": "^0.6.2",
+    "balm": "^1.9.0",
+    "codelyzer": "^5.1.0",
+    "gulp": "^4.0.2",
+    "ts-loader": "^6.2.0",
+    "tslint": "~5.18.0",
+    "typescript": "~3.5.3"
+  },
+  "private": true
+}
